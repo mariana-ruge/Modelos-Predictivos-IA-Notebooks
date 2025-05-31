@@ -5,10 +5,9 @@
 1. **Abre una terminal** (Anaconda Prompt o CMD).
 
 2. **Crea un nuevo ambiente** (puedes cambiar `agents` por el nombre que prefieras):
-
     ```bash
-conda create -n agents python=3.10
-```
+    conda create -n agents python=3.10
+    ```
 
 
 3. **Activa el ambiente** :
@@ -17,14 +16,14 @@ conda create -n agents python=3.10
     ```
 
 4. **Instala las dependencias necesarias** :
-```bash
+    ```bash
    conda install -c conda-forge poetry
     ```
 
 
 
 4. **Replicar las dependencias (enviroments.txt)** :
-```bash
-   conda env export --from-history > enviroment.txt
+    ```bash
+    conda env export --from-history > enviroment.txt
     ```
 
