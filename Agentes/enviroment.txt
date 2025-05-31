@@ -1,0 +1,7 @@
+name: agents
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - poetry
+prefix: /home/mariana/miniconda3/envs/agents
